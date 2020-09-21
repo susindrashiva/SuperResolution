@@ -1,0 +1,12 @@
+sudo apt install python3-pip
+sudo apt install jupyter-core
+pip3 install jupyter --no-cache
+pip3 install pandas --no-cache
+pip3 install nltk --no-cache
+pip3 install scikit-learn==0.21.3 --no-cache
+pip3 install matplotlib --no-cache
+pip3 install seaborn --no-cache
+
+pip3 install torch==1.2.0+cpu torchvision==0.4.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
+pip3 uninstall pillow
+pip3 install pillow==6.2.0
